@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./assets/stylesheets/main.css">
 
     <!-- Reset css -->
-    <link rel="stylesheet" href="/assets/stylesheets/reset.css">
+    <link rel="stylesheet" href="./assets/stylesheets/reset.css">
 
     <!-- Bootstrap Customs css -->
 
@@ -26,7 +26,7 @@
           </div>
           <ul class="nav navbar-nav" style="float:right;">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#contact_form">Contacts</a></li>
             <li><a href="#">Location</a></li>
           </ul>
@@ -73,6 +73,69 @@
    </header>
 
 <!-- about -->
+<section id="about">
+  <p>
+    Polish Cafe has been the top Fast food retail since its very beginning, five years ago and has continued to thoroughly
+    monitor the menu to suit all our client's needs.
+  </p>
+  <p>
+    In addition to satisfying your hunger and quenching your thirst, we thrive to make our environment fun-full and stress free.
+    That's why we offer you a price cut on all chicken burgers on Wednesday and Friday nights.
+  </p>
+  <section class="row">
+			<div class="text-center"> <h1> Menu</h1>
+
+			</div>
+			<div id="resizable" class="ui-widget-content">
+				<div id="tabs">
+			  <ul>
+			    <li><a href="#tabs-1">Burgers</a></li>
+			    <li><a href="#tabs-2">Drinks</a></li>
+			    <li><a href="#tabs-3">Offers</a></li>
+			    <li><a href="#tabs-4">Other Foods</a></li>
+			  </ul>
+
+			  <div id="tabs-1">
+			    <ul>
+			    		<li>Chicken Burger</li>
+			    		<li>Veggie-burger</li>
+			    		<li>Lemon -burger</li>
+			    		<li>New Arrivals</li>
+
+			    	</ul>
+			  </div>
+			  <div id="tabs-2">
+			    <ul>
+			    		<li>Diet soda</li>
+			    		<li>Minute maid</li>
+			    		<li>Energy drinks</li>
+              <li>Jameson</li>
+			    	</ul>
+			  </div>
+			  <div id="tabs-3">
+			    <ul>
+			    		<li>One free burger on Fridays</li>
+			    		<li>Free cocktail on Wednesdays</li>
+			    		<li>Annual trip to Mt.Kilimanjaro for our regular customers</li>
+
+			    	</ul>
+			  </div>
+			  <div id="tabs-4">
+			    	<ul>
+			    		<li>JavaScript</li>
+			    		<li>JQuery</li>
+			    		<li>HTML</li>
+			    		<li>CSS</li>
+			    		<li>Ruby</li>
+			    		<li>Communication</li>
+			    		<li>Interpersonal skills</li>
+			    	</ul>
+			  </div>
+			  </div>
+	</div>
+
+			</section>
+</section>
 
 
 
@@ -80,41 +143,57 @@
 
 <!-- contact -->
   <section id="contact_form">
-    <form class="col-sm-6" id="contact_form" action="/" method="post" >
+    <form class="col-sm-6" id="form" action="/" method="post" >
+      <!-- form -->
     			  <div class="form-group">
     			    <label for="exampleInputEmail1">Email address</label>
-    			    <input type="email" name="email"class="form-control" id="exampleInputEmail1" placeholder="Email">
+    			    <input type="email" name="email"class="form-control" id="exampleInputEmail1" placeholder="Email Address">
 
     			      <label for="exampleInputPassword1">Full name</label>
-    			    <input type="text" name="name"class="form-control" id="exampleInputPassword1" placeholder="Text">
+    			    <input type="text" name="name"class="form-control" id="exampleInputPassword1" placeholder="Full Name">
 
     			    <label for="exampleComment">Leave a comment</label>
     			    <textarea class="form-control" name="comment" rows="6" cols="5"></textarea>
     			  </div>
     			  <button type="submit" class="btn btn-default">Submit</button>
     			</form>
-    <div class="col-sm-6">
-      <p>
-        Or reach us through:
-      </p>
+
+          <!-- social media -->
+
+    <div class="col-sm-6" id="social-media">
+      <h3>Follow us on Social media</h3>
+            <a href="https://www.facebook.com/harrison.kamau.71" target="_blank"><img src="./assets/images/Facebook-logo.png" style="width:50px;height:50px;"></a>
+						<a href="https://twitter.com/ChegeHarrison"target="_blank"><img src="./assets/images/Twitter-logo.png" style="width:50px;height:50px;"></a>
+						<a href="https://plus.google.com/u/0/115456723932889279601/about"target="_blank"><img src="./assets/images/Instagram-logo.png"style="width:50px;height:50px;"></a>
+
 
     </div>
 
   </section>
 
+  <!-- Footer -->
 
+  <section class="col-sm-12">
+    <footer class="primary-footer container group">
+         <nav class="navbar">
+           <!-- copyright -->
+           <small>&copy; Polish Cafe</small>
+           <div class="container-fluid">
+             <!-- nav -->
+               <ul class="nav navbar-nav" style="float:right;">
+                 <li class="active"><a href="#">Home</a></li>
+                 <li><a href="#about">About</a></li>
+                 <li><a href="#contact_form">Contacts</a></li>
+                 <li><a href="#">Location</a></li>
+               </ul>
+           </div>
+         </nav>
 
+       </footer>
 
+  </section>
 
-
-
-
-
-
-
-
-
-
+  <!-- scripts -->
 
    <script src="./assets/js/jquery-3.0.0.min.js"></script>
    <script src="./assets/js/jqueryui.js"></script>
