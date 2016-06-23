@@ -1,4 +1,8 @@
-/*Carousel*/
+/*
+  ========================================
+  arousel
+  ========================================
+*/
 .carousel-inner > .item > img{
        /*width:640px;*/
        width: 100%;
@@ -9,4 +13,28 @@
 .navbar-header a  {
   font-size: 30px;
   font-style: verdana;
+}
+body {
+  background-color: green;
+   background: #cbe2c1;
+}
+
+/*
+  ========================================
+  Primary footer
+  ========================================
+*/
+
+.primary-footer {
+  background: black;
+  color: #648880;
+  margin: auto;
+  width: 600px;
+  font-size: 14px;
+  /*padding-bottom: 44px;*/
+  padding-top: 20px;
+}
+.primary-footer small {
+  float: left;
+  font-weight: 400;
 }
