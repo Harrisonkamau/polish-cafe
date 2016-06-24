@@ -38,3 +38,17 @@ body {
   float: left;
   font-weight: 400;
 }
+
+.ui-tabs .ui-tabs-nav
+{
+background: green;
+color: blue;
+}
+
+.ui-tabs .ui-tabs-panel /* just in case you want to change the panel */
+{
+background: blue;
+}
+.style-tabs ul{
+  color:  green;
+}
